@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/heide/CLionProjects/untitled/main.cpp
+iostream
+-
+random
+-
+tester.h
+C:/Users/heide/CLionProjects/untitled/tester.h
+
+C:/Users/heide/CLionProjects/untitled/tester.h
+iostream
+-
+

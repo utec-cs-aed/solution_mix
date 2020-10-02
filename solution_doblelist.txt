@@ -1,0 +1,6 @@
+Listas dobles: http://c.conclase.net/edd/?cap=005b#inicio
+Merge sort: 
+https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
+
+
+
