@@ -57,6 +57,12 @@ public:
         remove(this->root, value);
     }
 
+    ~BSTree(){
+        if(this->root != nullptr){
+            this->root->killSelf();
+        }
+    }
+
 private:
     void displayInOrder(NodeBT<T> *node);
     void displayPreOrder(NodeBT<T> *node);
