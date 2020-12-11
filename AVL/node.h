@@ -5,10 +5,10 @@ using namespace std;
 
 template <typename T>
 struct NodeBT {
-    T data;
-    int height;
+    T value; 
+    int height; 
     NodeBT* left; 
-    NodeBT* right;        
+    NodeBT* right;
     NodeBT() : left(nullptr), right(nullptr), height(0) {}   
     NodeBT(T value) : data(value), left(nullptr), right(nullptr), height(0) {}   
 

@@ -27,10 +27,7 @@ public:
     void insert(TK key, TV value)
     {
         int hashCode = getHashCode(key); //funcion hash   
-        int index = hashCode % arrayLength;//colisiones         
-        int i=0;
-        while(array[index] != nullptr)
-            index = (index + salto(i++)) % arrayLength ;//podemos trabajar con saltos
+        int index = hashCode % arrayLength;//colisiones                
         array[index] = new Node(hashCode, key, value);
     }
 
