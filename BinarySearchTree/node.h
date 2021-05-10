@@ -12,9 +12,7 @@ struct NodeBT {
     NodeBT(T value) : data(value), left(nullptr), right(nullptr) {}   
 
     void killSelf(){
-        if(left != nullptr) left->killSelf();
-        if(right != nullptr) right->killSelf();
-        delete this;
+        //TODO
     }
 };
 
